@@ -1,11 +1,11 @@
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
-// const slider = new Swiper("#swiper1",{ // Default
-//   direction: "horizontal",
-//   speed: 400,
+const slider = new Swiper("#swiper1",{ // Default
+  direction: "horizontal",
+  speed: 400,
 
-// })
+})
 
 // const slider = new Swiper("#swiper1",{ // With autoplay and spacing between slides
 //   direction: "horizontal",
@@ -95,16 +95,16 @@ import "swiper/css/bundle";
 
 // })
 
-const slider = new Swiper("#swiper1",{ // pagination number
-  direction: "horizontal",
-  pagination: {
-    el: ".swiper-pagination",
-    type: "fraction",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  speed: 400,
+// const slider = new Swiper("#swiper1",{ // pagination number
+//   direction: "horizontal",
+//   pagination: {
+//     el: ".swiper-pagination",
+//     type: "fraction",
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   speed: 400,
 
-})
+// })
